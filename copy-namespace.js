@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         GH Shopware - Copy namespace
+// @name         GitHub Shopware - Copy namespace
 // @namespace    https://www.ottscho-it-service.de/
 // @version      1
 // @description  Add btn to copy namespace
-// @author       ThomasLesinski
+// @author       Thomas Lesinski
 // @include      https://github.com/shopware/platform/*
 // @include      https://github.com/shopware/shopware/*
 // @grant        none
