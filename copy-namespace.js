@@ -39,7 +39,7 @@
       goToFileBtn = document.querySelector('.file-navigation .btn.mr-2.d-none.d-md-block');
     }
     
-    if (typeof goToFileBtn == undefined) {
+    if (goToFileBtn == undefined) {
         return;
     }
 
