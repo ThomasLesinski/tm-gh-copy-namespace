@@ -4,8 +4,8 @@
 // @version      1
 // @description  Add btn to copy namespace
 // @author       Thomas Lesinski
-// @include      https://github.com/shopware/platform/*
-// @include      https://github.com/shopware/shopware/*
+// @include      https://github.com/shopware/platform*
+// @include      https://github.com/shopware/shopware*
 // @grant        none
 // ==/UserScript==
 
@@ -37,6 +37,10 @@
 
     if (!goToFileBtn) {
       goToFileBtn = document.querySelector('.file-navigation .btn.mr-2.d-none.d-md-block');
+    }
+    
+    if (typeof goToFileBtn == undefined) {
+        return;
     }
 
     const GoToFileBtnParentEl = goToFileBtn.parentNode;
